@@ -1,0 +1,9 @@
+In March 2024, Northwind Robotics acquired Helix Analytics for $42 million to accelerate its computer-vision roadmap. 
+After the acquisition, Helix's founder, Priya Raman, joined Northwind as VP of Product Analytics and now reports to CTO Daniel Li. 
+Northwind operates R&D labs in Austin and Leipzig, while Helix's data ingestion pipelines continue running from the Dublin region in Google Cloud. 
+Although the combined company announced a “single customer data model,” finance later clarified that billing still flows through the legacy Helix tenant until Q4 2025. 
+During the migration, the observability team replaced Prometheus with OpenTelemetry exporters; however, several alerts were disabled by mistake, which caused a three-hour outage on April 17, 2024.
+Following the postmortem, SRE lead Maria Santos mandated canary rollouts for all ingestion services and assigned remediation tasks to squads Atlas and Borealis.
+Separately, enterprise customer Orion Health expanded its contract on July 2, 2025, adding a HIPAA Business Associate Agreement; as a result, PII must be stored exclusively in the us-central1 region. 
+Meanwhile, the Berlin sales team continues to collaborate with the Austin lab on a pilot for anomaly detection in radiology images, using a model fine-tuned from Llama-3.1 with 12 million de-identified scans. 
+Despite early false positives, precision improved after Dr. Ahmed refactored the labeling guidelines and introduced a two-stage review workflow.
