@@ -1,0 +1,93 @@
+[
+  {
+    "head_entity": {
+      "entity": "thirsty crow",
+      "attribute": "NP"
+    },
+    "relation": {
+      "relation": "search_for"
+    },
+    "tail_entity": {
+      "entity": "water",
+      "attribute": "NP"
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "he",
+      "attribute": "NP"
+    },
+    "relation": {
+      "relation": "see"
+    },
+    "tail_entity": {
+      "entity": "pitcher",
+      "attribute": "NP"
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "he",
+      "attribute": "NP"
+    },
+    "relation": {
+      "relation": "see_after"
+    },
+    "tail_entity": {
+      "entity": "long time",
+      "attribute": "NP"
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "he",
+      "attribute": "NP"
+    },
+    "relation": {
+      "relation": "see_in"
+    },
+    "tail_entity": {
+      "entity": "garden",
+      "attribute": "NP"
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "clever crow",
+      "attribute": "NP"
+    },
+    "relation": {
+      "relation": "think_of"
+    },
+    "tail_entity": {
+      "entity": "plan",
+      "attribute": "NP"
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "he",
+      "attribute": "NP"
+    },
+    "relation": {
+      "relation": "pick"
+    },
+    "tail_entity": {
+      "entity": "small stones",
+      "attribute": "NP"
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "crow",
+      "attribute": "NP"
+    },
+    "relation": {
+      "relation": "drink"
+    },
+    "tail_entity": {
+      "entity": "water",
+      "attribute": "NP"
+    }
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "head_entity": {
+      "entity": "phone",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "included_in"
+    },
+    "tail_entity": {
+      "entity": "box",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "phone",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "set_up_for"
+    },
+    "tail_entity": {
+      "entity": "first time",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "battery life",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "lasts"
+    },
+    "tail_entity": {
+      "entity": "all day",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "battery charging",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "reaches"
+    },
+    "tail_entity": {
+      "entity": "50%",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "battery charging speed",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "in"
+    },
+    "tail_entity": {
+      "entity": "roughly 30 minutes",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "phone",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "is_resistant_to"
+    },
+    "tail_entity": {
+      "entity": "water and dust",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "storage",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "can_be_expanded_by"
+    },
+    "tail_entity": {
+      "entity": "microsd",
+      "attribute": "up to 1 TB"
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "software update policy",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "has"
+    },
+    "tail_entity": {
+      "entity": "quarterly feature updates for 3 years and monthly security patches for 4 years",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "phone",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "supports"
+    },
+    "tail_entity": {
+      "entity": "two numbers and 5g",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "enable night mode",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "helps"
+    },
+    "tail_entity": {
+      "entity": "get great photos in low light",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "hold steady",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "helps"
+    },
+    "tail_entity": {
+      "entity": "get great photos in low light",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "wait for processing",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "helps"
+    },
+    "tail_entity": {
+      "entity": "get great photos in low light",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "use pro mode",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "helps"
+    },
+    "tail_entity": {
+      "entity": "get great photos in low light",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "consider raw",
+      "attribute": "for advanced control"
+    },
+    "relation": {
+      "relation": "helps"
+    },
+    "tail_entity": {
+      "entity": "get great photos in low light",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "in-display fingerprint",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "is_available"
+    },
+    "tail_entity": {
+      "entity": "biometric options",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "secure face unlock",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "is_available"
+    },
+    "tail_entity": {
+      "entity": "biometric options",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "biometric data stays in a secure enclave on the device",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "is_available"
+    },
+    "tail_entity": {
+      "entity": "biometric options",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "one-year limited hardware warranty",
+      "attribute": "with optional extended coverage"
+    },
+    "relation": {
+      "relation": "is_offered"
+    },
+    "tail_entity": {
+      "entity": "warranty and support options",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "24/7 chat support",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "is_offered"
+    },
+    "tail_entity": {
+      "entity": "warranty and support options",
+      "attribute": ""
+    }
+  },
+  {
+    "head_entity": {
+      "entity": "on-device care app for diagnostics",
+      "attribute": ""
+    },
+    "relation": {
+      "relation": "is_offered"
+    },
+    "tail_entity": {
+      "entity": "warranty and support options",
+      "attribute": ""
+    }
+  }
+]

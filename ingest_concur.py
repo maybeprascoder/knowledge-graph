@@ -97,6 +97,8 @@ def ingest_entries(session, path):
           x.type_name = row.ExpenseTypeName,
           x.description = row.Description,
           x.spend_category = row.SpendCategoryCode,
+          x.category = coalesce(row.SpendCategoryCode, row.ExpenseTypeName, row.ExpenseTypeCode, 'Unknown'),
+          x.currency = toLower(coalesce(row.TransactionCurrencyCode, x.currency)),
           x.location_country = row.LocationCountry,
           x.location_name = row.LocationName,
           x.payment_type_id = row.PaymentTypeID,
@@ -114,7 +116,8 @@ def ingest_entries(session, path):
     MERGE (v:Vendor {name: row.VendorDescription})
     WITH row, v
     MATCH (x:Expense {id: row.ID})
-    MERGE (x)-[:PAID_TO]->(v);
+    MERGE (x)-[:PAID_TO]->(v)
+      SET x.vendor = coalesce(v.name, x.vendor);
     """
 
     with open(path, newline="", encoding="utf-8") as f:

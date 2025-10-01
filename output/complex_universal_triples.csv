@@ -1,0 +1,8 @@
+head,head_attr,relation,tail,tail_attr
+thirsty crow,NP,search_for,water,NP
+he,NP,see,pitcher,NP
+he,NP,see_after,long time,NP
+he,NP,see_in,garden,NP
+clever crow,NP,think_of,plan,NP
+he,NP,pick,small stones,NP
+crow,NP,drink,water,NP
